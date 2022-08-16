@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #4e5150;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.person-city {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #a9a9a9;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b9bdcf;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 95rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.person {
+  max-width: 15rem;
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+}
+
+.person img {
+  max-width: 8rem;
+  border-radius: 1rem;
+}
+
+.profile-data {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile-data div {
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  padding: 0.2rem 0;
+  min-width: 8rem;
+}
+
+.profile-data-top {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #4e5150;
+}
+
+.profile-data-bottom {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  /* Gray 4 */
+
+  color: #bdbdbd;
+}
+
+.img-tiles {
+  margin-top: 4rem;
+}
+
+.img-tiles img {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row1 img:nth-child(1) {
+  width: 30%;
+}
+
+.row1 img:nth-child(2) {
+  width: 68%;
+}
+
+.row2 {
+  margin-top: 2rem;
+  max-height: 35rem;
+}
+
+.row2-side {
+  width: 33%;
+}
+
+.row21 {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row21 img {
+  max-height: 17rem;
+}
+
+.row21 img:nth-child(1) {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.row21 img:nth-child(2),
+.row21 img:nth-child(3) {
+  width: 48%;
+}
+
+@media (min-width: 700px) {
+  h3 {
+    font-size: 24px;
+  }
+
+  .person-city {
+    font-size: 14px;
+  }
+
+  .row21 img {
+    max-height: 23rem;
+  }
+
+  .row2 {
+    max-height: 50rem;
+  }
+
+  .profile-data div {
+    min-width: 10rem;
+  }
+
+  .person {
+    max-width: 20rem;
+  }
+
+}
